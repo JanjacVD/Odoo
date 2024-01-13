@@ -1,6 +1,14 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@shared/*": ["src/shared/*"],
+      "@features/*": ["src/features/*"]
+    },
+    "allowImportingTsExtensions": true,
+    "allowUmdGlobalAccess": true
   }
 }
