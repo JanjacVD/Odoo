@@ -11,5 +11,5 @@ export const useAxiosInstance = () => {
       "X-Openerp": user.session_id,
     },
   });
-  return {instance}
+  return { instance };
 };

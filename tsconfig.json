@@ -6,7 +6,8 @@
     "baseUrl": "./",
     "paths": {
       "@shared/*": ["src/shared/*"],
-      "@features/*": ["src/features/*"]
+      "@features/*": ["src/features/*"],
+      "@entry/*": ["src/entry/*"]
     },
     "allowImportingTsExtensions": true,
     "allowUmdGlobalAccess": true
