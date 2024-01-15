@@ -15,3 +15,9 @@ export type NewSaleOrderParams = {
     requested_date: number;
     partner_shipping_id: number;
 }
+export type SaleStackParamList = {
+    list:undefined
+    details: {
+        id:number
+    }
+}

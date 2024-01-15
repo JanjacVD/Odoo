@@ -1,4 +1,4 @@
-import { OdooResponse } from "@shared/types/OdooTypes";
+import { OdooResponse } from "@shared/types/odooTypes";
 import axios from "axios";
 import { ExpectedLoginReturn, LoginRequestParams } from "../typesAndData";
 

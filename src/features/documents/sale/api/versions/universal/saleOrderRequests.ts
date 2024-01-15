@@ -3,7 +3,7 @@ import {
   SaleOrder,
   SaleOrderNewLine,
 } from "@features/documents/sale/typesAndData";
-import { OdooResponse } from "@shared/types/OdooTypes";
+import { OdooResponse } from "@shared/types/odooTypes";
 import { AxiosInstance } from "axios";
 
 export async function saleOrderGet({

@@ -1,4 +1,4 @@
-import { OneToMany } from "@shared/types/OdooTypes";
+import { OneToMany } from "@shared/types/odooTypes";
 import { required } from "@shared/validation/stringValidations";
 
 export interface AuthContextInterface {
